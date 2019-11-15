@@ -1,0 +1,124 @@
+sys 4
+
+real	0m0,007s
+user	0m0,000s
+sys	0m0,007s
+
+real	0m0,007s
+user	0m0,000s
+sys	0m0,007s
+
+real	0m2,352s
+user	0m0,340s
+sys	0m2,012s
+
+
+sys 512
+
+real	0m0,009s
+user	0m0,000s
+sys	0m0,008s
+
+real	0m0,006s
+user	0m0,003s
+sys	0m0,003s
+
+real	0m2,443s
+user	0m0,328s
+sys	0m2,115s
+
+
+sys 4096
+
+real	0m0,031s
+user	0m0,000s
+sys	0m0,030s
+
+real	0m0,011s
+user	0m0,004s
+sys	0m0,007s
+
+real	0m3,787s
+user	0m0,328s
+sys	0m3,459s
+
+
+sys 8192
+
+real	0m0,057s
+user	0m0,000s
+sys	0m0,057s
+
+real	0m0,018s
+user	0m0,000s
+sys	0m0,018s
+
+real	0m6,290s
+user	0m0,376s
+sys	0m5,913s
+
+
+lib 4
+
+real	0m0,004s
+user	0m0,000s
+sys	0m0,003s
+
+real	0m0,003s
+user	0m0,000s
+sys	0m0,003s
+
+real	0m1,301s
+user	0m0,356s
+sys	0m0,944s
+
+
+lib 512
+
+real	0m0,005s
+user	0m0,000s
+sys	0m0,005s
+
+real	0m0,003s
+user	0m0,003s
+sys	0m0,000s
+
+real	0m1,719s
+user	0m0,380s
+sys	0m1,339s
+
+
+lib 4096
+
+real	0m0,032s
+user	0m0,004s
+sys	0m0,028s
+
+real	0m0,011s
+user	0m0,000s
+sys	0m0,011s
+
+real	0m4,073s
+user	0m0,608s
+sys	0m3,465s
+
+
+lib 8192
+
+real	0m0,059s
+user	0m0,000s
+sys	0m0,059s
+
+real	0m0,021s
+user	0m0,004s
+sys	0m0,016s
+
+real	0m6,855s
+user	0m0,588s
+sys	0m6,264s
+
+
+Funkcje biblioteczne są szybsze przy pracy z małymi porcjami danych ponieważ biblioteka standardowa impelementuje
+cache. Z drugiej strony przy operacjach na większych porcjach danych daje o sobie znać dodatkowy narzut
+biblioteki standardowej i wywołania systemowe są nieznacznie szybsze. Niestety operacje na wywołaniach systemowych
+są nieprzenośne między platformani w przeciwieństwie do biblioteki standardowej.

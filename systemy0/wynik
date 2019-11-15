@@ -1,0 +1,142 @@
+insert O0
+
+real	0m14,258s
+user	0m14,246s
+sys	0m0,012s
+
+insert O1
+
+real	0m3,262s
+user	0m3,262s
+sys	0m0,000s
+
+insert O2
+
+real	0m2,452s
+user	0m2,452s
+sys	0m0,000s
+
+insert O3
+
+real	0m2,452s
+user	0m2,448s
+sys	0m0,004s
+
+insert Os
+
+real	0m3,913s
+user	0m3,913s
+sys	0m0,000s
+
+heap O0
+
+real	0m0,684s
+user	0m0,684s
+sys	0m0,000s
+
+heap O1
+
+real	0m0,245s
+user	0m0,245s
+sys	0m0,000s
+
+heap O2
+
+real	0m0,227s
+user	0m0,227s
+sys	0m0,000s
+
+heap O3
+
+real	0m0,217s
+user	0m0,217s
+sys	0m0,000s
+
+heap Os
+
+real	0m0,215s
+user	0m0,211s
+sys	0m0,004s
+
+merge O0
+
+real	0m0,357s
+user	0m0,357s
+sys	0m0,000s
+
+merge O1
+
+real	0m0,173s
+user	0m0,169s
+sys	0m0,004s
+
+merge O2
+
+real	0m0,174s
+user	0m0,166s
+sys	0m0,008s
+
+merge O3
+
+real	0m0,166s
+user	0m0,158s
+sys	0m0,008s
+
+merge Os
+
+real	0m0,192s
+user	0m0,188s
+sys	0m0,004s
+
+quick O0
+
+real	0m0,447s
+user	0m0,447s
+sys	0m0,000s
+
+quick O1
+
+real	0m0,123s
+user	0m0,119s
+sys	0m0,004s
+
+quick O2
+
+real	0m0,119s
+user	0m0,119s
+sys	0m0,000s
+
+quick O3
+
+real	0m0,117s
+user	0m0,109s
+sys	0m0,008s
+
+quick Os
+
+real	0m0,120s
+user	0m0,116s
+sys	0m0,004s
+
+Algorytmy są wyraźnie szybsze z każdym kolejnym stopniem optymalizacji. Wyjątkiem jest optymalizacja Os,
+która wymusza pewne kompromisy w prędkości działania na rzecz rozmiaru pliku wykonywalnego.
+
+LINKOWANIE STATYCZNE vs DYNAMICZNE
+
+static
+
+real	0m3,750s
+user	0m3,750s
+sys	0m0,000s
+dynamic
+
+real	0m3,578s
+user	0m3,578s
+sys	0m0,000s
+runtime
+
+real	0m3,581s
+user	0m3,581s
+sys	0m0,000s
+
+Linkowanie statyczne okazało się wolniejsze od obu wariantów linkowania dynamiczego.

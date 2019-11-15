@@ -1,0 +1,5 @@
+cmake*/
+*.so
+*.o
+*.zip
+.idea/
