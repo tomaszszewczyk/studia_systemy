@@ -1,0 +1,4 @@
+echo dupa -l
+echo -l dupa
+ls -l
+ll -a
